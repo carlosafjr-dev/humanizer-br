@@ -1,0 +1,15 @@
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+*.log
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
