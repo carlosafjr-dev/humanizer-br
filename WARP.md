@@ -9,7 +9,7 @@ Este arquivo orienta editores e ferramentas ao trabalhar com o código deste rep
 Este repositório contém **duas skills do Claude Code** implementadas inteiramente em Markdown:
 
 1. **humanizer-br** — Remove sinais de escrita gerada por IA
-2. **density-booster** — Aumenta densidade intelectual do texto
+2. **aprofundador** — Aumenta densidade intelectual do texto
 
 Cada skill é definida por um arquivo `SKILL.md` dentro do diretório `skills/`.
 
@@ -22,12 +22,8 @@ humanizer-br/
 ├── skills/
 │   ├── humanizer-br/
 │   │   └── SKILL.md          # Skill principal
-│   └── density-booster/
+│   └── aprofundador/
 │       └── SKILL.md          # Módulo complementar
-├── para-instalar/            # Cópia pronta para instalação
-│   ├── install.ps1
-│   ├── humanizer-br/SKILL.md
-│   └── density-booster/SKILL.md
 ├── README.md                 # Documentação para humanos
 └── WARP.md                   # Este arquivo
 ```

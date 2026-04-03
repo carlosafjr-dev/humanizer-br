@@ -1,6 +1,6 @@
 # Humanizer-BR — Editor de Texto Anti-IA
 
-Skill para Claude Code que remove marcas típicas de textos gerados por IA, deixando a escrita mais natural, clara e próxima da linguagem humana. Inclui também o módulo **density-booster** para aumentar a densidade intelectual do conteúdo.
+Skill para Claude Code que remove marcas típicas de textos gerados por IA, deixando a escrita mais natural, clara e próxima da linguagem humana. Inclui também o módulo **aprofundador** para aumentar a densidade intelectual do conteúdo.
 
 ---
 
@@ -20,8 +20,8 @@ Copie os arquivos `SKILL.md` de cada skill para o diretório correto:
 mkdir -p ~/.claude/skills/humanizer-br
 cp skills/humanizer-br/SKILL.md ~/.claude/skills/humanizer-br/
 
-mkdir -p ~/.claude/skills/density-booster
-cp skills/density-booster/SKILL.md ~/.claude/skills/density-booster/
+mkdir -p ~/.claude/skills/aprofundador
+cp skills/aprofundador/SKILL.md ~/.claude/skills/aprofundador/
 ```
 
 ### Método 3: Script automático (Windows PowerShell)
@@ -31,9 +31,9 @@ Crie um script `install.ps1` com:
 ```powershell
 $skillsDir = "$env:USERPROFILE\.claude\skills"
 mkdir -p $skillsDir/humanizer-br
-mkdir -p $skillsDir/density-booster
+mkdir -p $skillsDir/aprofundador
 cp skills/humanizer-br/SKILL.md $skillsDir/humanizer-br/
-cp skills/density-booster/SKILL.md $skillsDir/density-booster/
+cp skills/aprofundador/SKILL.md $skillsDir/aprofundador/
 ```
 
 ---
@@ -50,12 +50,12 @@ Remove padrões de escrita gerada por IA:
 [cole seu texto aqui]
 ```
 
-### Density-Booster
+### Aprofundador
 
 Aumenta a densidade intelectual do texto (use após o humanizer):
 
 ```
-/density-booster
+/aprofundador
 
 [cole o texto já humanizado aqui]
 ```
@@ -64,12 +64,12 @@ Aumenta a densidade intelectual do texto (use após o humanizer):
 
 1. **Texto Base** (IA ou rascunho)
 2. **Humanizer-BR** (remove marcas de IA)
-3. **Density-Booster** (aumenta densidade intelectual)
+3. **Aprofundador** (aprofunda o conteúdo)
 4. **Editor Final** (ajuste de fluidez e estilo)
 
 Você pode pedir ao Claude para aplicar ambas em sequência:
 
-> "Aplique o humanizer-br neste texto e depois use o density-booster."
+> "Aplique o humanizer-br neste texto e depois use o aprofundador."
 
 ---
 
@@ -313,7 +313,7 @@ humanizer-br/
 ├── skills/
 │   ├── humanizer-br/
 │   │   └── SKILL.md          # Skill principal (anti-IA)
-│   └── density-booster/
+│   └── aprofundador/
 │       └── SKILL.md          # Módulo complementar (densidade intelectual)
 ├── README.md
 └── WARP.md
@@ -330,7 +330,7 @@ humanizer-br/
 - Regras rigorosas de pontuação (travessão proibido, ponto e vírgula evitado)
 - Teste Mental de Autenticidade com 3 perguntas de validação
 - Referências acadêmicas adicionadas (Sampaio 2026, Floridi 2025)
-- density-booster integrado como módulo complementar
+- aprofundador integrado como módulo complementar
 
 ### 1.0.0
 - Primeira versão pública

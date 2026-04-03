@@ -1,5 +1,5 @@
 ---
-name: density-booster
+name: aprofundador
 version: 1.0.0
 description: |
   Módulo editorial complementar ao Humanizer-BR que aumenta a densidade intelectual
@@ -8,7 +8,7 @@ description: |
   estratégica, comparação e síntese. Deve ser executado após o Humanizer-BR.
 ---
 
-# Density-Booster
+# Aprofundador
 Aprofundamento Intelectual de Textos
 
 Versão: 1.0
@@ -19,7 +19,7 @@ Compatível com: Humanizer-BR
 
 # 1. O que é essa skill
 
-O density-booster pega textos que só **passam informação** e transforma em textos que **analisam, interpretam e geram reflexão**.
+O aprofundador pega textos que só **passam informação** e transforma em textos que **analisam, interpretam e geram reflexão**.
 
 Não se trata de encher linguiça. É deixar cada parágrafo com mais substância — como faria alguém que domina o assunto e tem opinião formada sobre ele.
 
@@ -37,16 +37,16 @@ O resultado é um texto que parece escrito por quem vive o assunto, não por que
 
 # 2. Onde entra no fluxo
 
-O density-booster é a segunda etapa. Primeiro o Humanizer-BR limpa os vícios de IA. Depois o density-booster acrescenta profundidade.
+O aprofundador é a segunda etapa. Primeiro o Humanizer-BR limpa os vícios de IA. Depois o aprofundador acrescenta profundidade.
 
 Fluxo recomendado:
 
 1. Texto base (rascunho ou geração de IA)
 2. Humanizer-BR (remove marcas de IA)
-3. Density-Booster (aprofunda o conteúdo)
+3. Aprofundador (aprofunda o conteúdo)
 4. Revisão final (ajuste de fluidez)
 
-**Nunca rode o density-booster antes do humanizer.** Não adianta aprofundar um texto cheio de vícios artificiais.
+**Nunca rode o aprofundador antes do humanizer.** Não adianta aprofundar um texto cheio de vícios artificiais.
 
 ---
 
@@ -227,7 +227,7 @@ Fechar com uma ideia que conecta tudo.
 
 > "Empresas estão investindo cada vez mais em inteligência artificial para melhorar seus resultados."
 
-### Após Humanizer + Density-Booster
+### Após Humanizer + Aprofundador
 
 > O investimento em inteligência artificial está crescendo em praticamente todos os setores da economia brasileira.
 
@@ -241,7 +241,7 @@ Fechar com uma ideia que conecta tudo.
 
 # 12. Como ativar
 
-Ative o density-booster e peça para analisar o texto.
+Ative o aprofundador e peça para analisar o texto.
 
 A skill deve:
 
@@ -256,7 +256,7 @@ Regra de ouro: não encher linguiça. Cada frase nova precisa agregar informaç�
 
 # 13. Resultado esperado
 
-Após aplicar o density-booster, o texto deve:
+Após aplicar o aprofundador, o texto deve:
 
 - parecer escrito por quem entende do assunto
 - ter opiniões e interpretações, não só fatos
