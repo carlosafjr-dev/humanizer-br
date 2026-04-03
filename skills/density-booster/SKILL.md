@@ -9,365 +9,259 @@ description: |
 ---
 
 # Density-Booster
-Skill de Aumento de Densidade Intelectual
+Aprofundamento Intelectual de Textos
 
-Versão: 1.0  
-Idioma: Português-BR  
+Versão: 1.0
+Idioma: Português-BR
 Compatível com: Humanizer-BR
 
 ---
 
-# 1. Visão Geral
+# 1. O que é essa skill
 
-A skill **density-booster** é um módulo editorial projetado para aumentar a profundidade intelectual de textos gerados por IA.
+O density-booster pega textos que só **passam informação** e transforma em textos que **analisam, interpretam e geram reflexão**.
 
-Ela transforma textos que apenas **informam** em textos que **analisam, interpretam e produzem insight**.
+Não se trata de encher linguiça. É deixar cada parágrafo com mais substância — como faria alguém que domina o assunto e tem opinião formada sobre ele.
 
-Seu objetivo não é aumentar o tamanho do texto, mas **aumentar o valor cognitivo de cada parágrafo**.
-
-A skill atua sobre cinco dimensões principais:
+A skill trabalha em cinco frentes:
 
 - análise
 - contexto
-- implicação estratégica
+- consequência prática
 - comparação
 - síntese
 
-O resultado esperado é um conteúdo que soe como escrito por **um especialista experiente**, e não apenas por um redator informativo.
+O resultado é um texto que parece escrito por quem vive o assunto, não por quem leu sobre ele.
 
 ---
 
-# 2. Papel da Skill no Pipeline Editorial
+# 2. Onde entra no fluxo
 
-O density-booster faz parte de um fluxo maior de produção de texto com IA.
+O density-booster é a segunda etapa. Primeiro o Humanizer-BR limpa os vícios de IA. Depois o density-booster acrescenta profundidade.
 
-Pipeline recomendado:
+Fluxo recomendado:
 
-Texto Base (IA Redator)
-↓
-Humanizer-BR
-(remove marcas de IA)
-↓
-Density-Booster
-(aumenta densidade intelectual)
-↓
-Editor Final
-(ajuste de fluidez e estilo)
+1. Texto base (rascunho ou geração de IA)
+2. Humanizer-BR (remove marcas de IA)
+3. Density-Booster (aprofunda o conteúdo)
+4. Revisão final (ajuste de fluidez)
 
-
-O **density-booster sempre deve ser executado após o Humanizer-BR**, pois primeiro é necessário remover os vícios típicos de IA antes de adicionar camadas analíticas.
+**Nunca rode o density-booster antes do humanizer.** Não adianta aprofundar um texto cheio de vícios artificiais.
 
 ---
 
-# 3. Quando Utilizar a Skill
+# 3. Quando usar
 
-A skill deve ser ativada quando o texto apresentar sinais de superficialidade, como:
+Use quando o texto estiver raso demais. Sinais de que precisa:
 
-- frases apenas informativas
-- explicações básicas
-- afirmações genéricas
-- ausência de interpretação
-- parágrafos descritivos sem análise
+- só descreve, não interpreta
+- repete o óbvio
+- não toma posição
+- parágrafos que poderiam estar em qualquer lugar
 
-### Exemplo de frase superficial
+### Exemplo de frase rasa
 
-Empresas estão investindo mais em inteligência artificial.
+> "O mercado de tecnologia no Brasil cresce a cada ano."
 
-Essa frase apenas descreve um fato.  
-Ela não responde:
+Essa frase não diz nada que alguém não saiba. Ela não responde:
 
-- por que isso acontece
-- o que isso revela
-- qual impacto isso gera
+- por que cresce
+- o que está por trás desse crescimento
+- quem ganha e quem perde com isso
 
 ---
 
-# 4. Estrutura de Funcionamento
+# 4. Como funciona
 
-A skill opera em **cinco fases sequenciais**.
+A skill opera em cinco fases:
 
-1. Diagnóstico de superficialidade  
-2. Identificação de oportunidades de densidade  
-3. Aplicação de camadas de profundidade  
-4. Reestruturação narrativa  
-5. Validação editorial
-
----
-
-# 5. Fase 1 — Diagnóstico de Superficialidade
-
-## Objetivo
-
-Identificar trechos com baixo valor intelectual.
-
-## A skill procura frases que:
-
-- apenas descrevem fatos
-- repetem conhecimento comum
-- explicam conceitos básicos
-- fazem afirmações genéricas
-
-### Exemplos
-
-Frase superficial:
-
-Marketing digital é importante para as empresas.
-
-Frase superficial:
-
-As redes sociais são ferramentas importantes de comunicação.
-
-## Critério de diagnóstico
-
-Se a frase responde apenas **"o que é"**, mas não responde:
-
-- por que
-- como
-- qual consequência
-- o que isso revela
-
-então o trecho precisa de densidade.
+1. Diagnóstico — onde o texto é raso
+2. Identificação — onde dá para aprofundar
+3. Aplicação — camadas de profundidade
+4. Reorganização — o texto não pode ficar picotado
+5. Validação — cada parágrafo precisa ter algo a dizer
 
 ---
 
-# 6. Fase 2 — Identificação de Pontos de Ampliação
+# 5. Fase 1 — Diagnóstico
 
-Após detectar superficialidade, a skill identifica onde adicionar profundidade.
+O que a skill procura:
 
-Existem quatro tipos principais de ampliação.
+- frases que só descrevem fatos
+- repetição de senso comum
+- explicações que qualquer um daria
+- afirmações sem lastro
 
----
+### Exemplos de frases rasas
 
-## Observação de mercado
+> "Marketing digital é importante para as empresas."
 
-Adicionar leitura contextual do fenômeno.
+> "As redes sociais mudaram a forma como as pessoas se comunicam."
 
-Exemplo:
+Ambas respondem só "o que é". Não respondem por quê, como, ou qual a consequência.
 
-Nos últimos anos, marketing deixou de ser apenas comunicação e passou a operar como sistema de aquisição de clientes.
+### Critério
 
----
-
-## Comparação
-
-Criar contraste entre dois cenários.
-
-Exemplo:
-
-Empresas que tratam redes sociais como vitrine produzem posts.  
-Empresas que tratam redes sociais como mídia constroem audiência.
+Se você pode trocar o assunto da frase e a estrutura continua fazendo sentido, ela é genérica demais.
 
 ---
 
-## Implicação estratégica
+# 6. Fase 2 — Onde aprofundar
 
-Mostrar a consequência da tendência.
+Quatro caminhos para dar profundidade:
 
-Exemplo:
+### Leitura de contexto
 
-Isso muda completamente a forma como empresas planejam crescimento.
+Colocar o fenômeno dentro de um cenário maior.
 
----
+> "Nos últimos anos, marketing no Brasil deixou de ser só propaganda de TV e virou sistema de aquisição de cliente. O que antes era gasto virou investimento mensurável."
 
-## Interpretação
+### Contraste
 
-Transformar informação em leitura crítica.
+Colocar dois comportamentos lado a lado.
 
-Exemplo:
+> "Tem empresa que trata rede social como vitrine — posta e reza. Tem empresa que trata como canal de venda — testa, mede e ajusta."
 
-O avanço da inteligência artificial não reduz a importância da criatividade. Ele aumenta.
+### Consequência
 
----
+Mostrar o que acontece na prática.
 
-# 7. Fase 3 — Aplicação de Camadas de Densidade
+> "Isso muda a forma como pequenas empresas pensam em crescimento. Quem não entra nessa lógica fica preso no boca a boca."
 
-Cada parágrafo deve receber **pelo menos uma camada de densidade**.
+### Interpretação
 
-Existem três camadas principais.
+Dar uma leitura crítica do fato.
 
----
-
-## Camada 1 — Contexto
-
-Expande o cenário em que a ideia acontece.
-
-### Antes
-
-Empresas estão investindo em inteligência artificial.
-
-### Depois
-
-O investimento em inteligência artificial cresce rapidamente em praticamente todos os setores.
+> "O avanço da IA no Brasil não vai substituir profissionais. Vai separar quem usa ferramenta de quem é substituído por ela."
 
 ---
 
-## Camada 2 — Interpretação
+# 7. Fase 3 — Camadas de profundidade
 
-Explica o significado do fenômeno.
+Cada parágrafo raso deve receber pelo menos uma camada.
 
-### Após camada 2
+### Camada 1 — Contexto
 
-O investimento em inteligência artificial cresce rapidamente em praticamente todos os setores.  
-Isso indica uma mudança estrutural na forma como empresas tratam dados e decisões.
+> Antes: "Empresas estão investindo em inteligência artificial."
 
----
+> Depois: "O investimento em inteligência artificial cresce no Brasil, especialmente entre empresas de médio porte que antes não tinham orçamento para tecnologia de ponta."
 
-## Camada 3 — Implicação
+### Camada 2 — Interpretação
 
-Mostra o impacto prático da mudança.
+> "Isso indica uma mudança: dados deixaram de ser coisa de departamento de TI e viraram ferramenta de decisão."
 
-### Versão final
+### Camada 3 — Consequência
 
-O investimento em inteligência artificial cresce rapidamente em praticamente todos os setores.  
-Isso indica uma mudança estrutural na forma como empresas tratam dados e decisões.  
-Organizações que não incorporarem esse tipo de inteligência em seus processos tendem a perder velocidade competitiva.
+> "Empresas que não incorporarem inteligência de dados nos próximos dois anos vão competir com uma mão amarrada nas costas."
 
 ---
 
-# 8. Fase 4 — Reestruturação Narrativa
+# 8. Fase 4 — Reorganização
 
-Após adicionar densidade, o texto pode ficar fragmentado.
+Depois de adicionar profundidade, o texto pode ficar empedrado. A skill reorganiza o fluxo.
 
-A skill reorganiza o fluxo narrativo.
+Estrutura que funciona:
 
-### Estrutura recomendada de parágrafo
-
-1. Observação  
-2. Interpretação  
-3. Consequência
-
----
+1. Observação concreta
+2. O que isso significa
+3. Qual o impacto
 
 ### Exemplo
 
-Texto original:
+> Texto original: "Criadores de conteúdo precisam entender seu público."
 
-Criadores de conteúdo precisam entender seu público.
-
-Versão com densidade:
-
-Muitos criadores tratam audiência apenas como métrica.  
-Os que constroem relevância tratam audiência como comunidade.  
-Essa diferença muda completamente a forma como conteúdo é produzido.
+> Com profundidade: "Muitos criadores tratam audiência como número — seguidores, visualizações, curtidas. Os que constroem carreira de verdade tratam audiência como gente: respondem comentário, adaptam conteúdo, criam comunidade. A diferença está em quem consegue viver do que cria e quem depende de sorte."
 
 ---
 
-# 9. Fase 5 — Validação Editorial
+# 9. Fase 5 — Validação
 
-Antes de finalizar, cada parágrafo deve responder pelo menos uma pergunta intelectual.
+Antes de finalizar, cada parágrafo deve responder pelo menos uma dessas perguntas:
 
-- O que isso revela?
-- Por que isso acontece?
-- O que isso muda?
-- Qual é a implicação estratégica?
+- O que isso revela que não é óbvio?
+- Por que isso acontece de verdade?
+- O que isso muda na prática?
+- Qual a consequência de ignorar isso?
 
-Se nenhuma dessas respostas estiver presente, o parágrafo ainda está superficial.
-
----
-
-# 10. Mecanismos de Densidade
-
-A skill utiliza cinco mecanismos principais.
+Se nenhuma resposta estiver presente, o parágrafo ainda está raso.
 
 ---
 
-## Insight
+# 10. Ferramentas de profundidade
 
-Adicionar uma leitura nova sobre o tema.
+### Posicionamento
 
-Exemplo:
+Tomar uma posição em vez de ficar em cima do muro.
 
-O problema de muitas empresas não é marketing ruim. É estratégia ausente.
+> "O problema de muita empresa não é que faz marketing errado. É que não sabe o que vende."
 
----
+### Contraste real
 
-## Contraste
+Comparar situações que o leitor reconhece.
 
-Comparar dois comportamentos.
+> "Tem marca que corre atrás de atenção. Tem marca que constrói reputação. Uma grita, a outra é procurada."
 
-Exemplo:
+### Ampliação
 
-Algumas marcas competem por atenção. Outras competem por relevância.
+Mostrar que o fenômeno é maior do que parece.
 
----
+> "Isso não é só tendência de marketing. É mudança na forma como o brasileiro consome informação."
 
-## Escala
+### Consequência prática
 
-Ampliar a visão do fenômeno.
+Ir além da teoria.
 
-Exemplo:
+> "Na prática, isso significa menos reunião de brainstorm e mais análise de dado."
 
-Esse movimento não acontece apenas no marketing. Ele está transformando a forma como empresas operam.
+### Síntese
 
----
+Fechar com uma ideia que conecta tudo.
 
-## Consequência
-
-Mostrar impacto prático.
-
-Exemplo:
-
-Isso altera completamente o modelo de crescimento dessas empresas.
+> "No fim, a questão não é qual ferramenta usar. É para quem você está vendendo e por que essa pessoa deveria se importar."
 
 ---
 
-## Síntese
-
-Conectar ideias e gerar conclusão analítica.
-
-Exemplo:
-
-No fundo, a discussão não é sobre tecnologia. É sobre tomada de decisão.
-
----
-
-# 11. Exemplo Completo
+# 11. Exemplo completo
 
 ### Texto original
 
-Empresas estão investindo cada vez mais em inteligência artificial para melhorar seus resultados.
+> "Empresas estão investindo cada vez mais em inteligência artificial para melhorar seus resultados."
 
-### Texto após Humanizer + Density-Booster
+### Após Humanizer + Density-Booster
 
-O investimento em inteligência artificial está crescendo rapidamente em praticamente todos os setores.
+> O investimento em inteligência artificial está crescendo em praticamente todos os setores da economia brasileira.
 
-Mas a diferença competitiva não está no acesso à tecnologia. Está na capacidade de integrá-la aos processos de decisão da empresa.
+> Mas a diferença competitiva não está em quem tem a ferramenta. Está em quem sabe o que fazer com ela.
 
-Organizações que tratam IA apenas como ferramenta ganham eficiência. As que tratam IA como sistema de inteligência ganham vantagem estratégica.
+> Empresa que usa IA só para cortar custo ganha eficiência temporária. Empresa que usa IA para entender cliente ganha vantagem que concorrente não copia.
 
----
-
-# 12. Prompt de Ativação da Skill
-
-Ative a skill density-booster.
-
-Analise o texto identificando parágrafos superficiais ou apenas descritivos.
-
-Aplique camadas de densidade intelectual adicionando:
-
-observação
-interpretação
-implicação estratégica
-contraste
-síntese
-
-Transforme explicações simples em análises mais profundas.
-
-Não aumente artificialmente o tamanho do texto.
-Aumente apenas a densidade intelectual do conteúdo.
-
+> O mercado vai separar os dois grupos nos próximos anos.
 
 ---
 
-# 13. Resultado Esperado
+# 12. Como ativar
 
-Após aplicação da skill, o texto deve:
+Ative o density-booster e peça para analisar o texto.
 
-- parecer escrito por um especialista
-- conter observações analíticas
+A skill deve:
+
+1. Identificar parágrafos rasos ou só descritivos
+2. Adicionar camadas de profundidade (contexto, interpretação, consequência, contraste, síntese)
+3. Reorganizar o fluxo para não ficar empedrado
+4. Validar que cada parágrafo tem algo a dizer
+
+Regra de ouro: não encher linguiça. Cada frase nova precisa agregar informação ou perspectiva.
+
+---
+
+# 13. Resultado esperado
+
+Após aplicar o density-booster, o texto deve:
+
+- parecer escrito por quem entende do assunto
+- ter opiniões e interpretações, não só fatos
 - evitar explicações genéricas
-- apresentar interpretações e implicações estratégicas
-- manter clareza e fluidez
+- conectar teoria com prática
+- manter clareza — aprofundar não é complicar
 
-O objetivo final é produzir **conteúdo com densidade editorial real e valor intelectual consistente**.
-
+O objetivo é produzir texto que o leitor leva a sério.
