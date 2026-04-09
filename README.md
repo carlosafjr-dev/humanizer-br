@@ -24,7 +24,19 @@ mkdir -p ~/.claude/skills/aprofundador
 cp skills/aprofundador/SKILL.md ~/.claude/skills/aprofundador/
 ```
 
-### Método 3: Script automático (Windows PowerShell)
+### Método 3: Instalação manual no claude.ia
+
+Baixe o zip do arquivo e descompacte no seu computador 
+
+Vá em claude.ai 
+
+Configurações > Capacidades > Habilidades > Clica no + > + Criar habilidade > Fazer upload de uma habilidade
+
+Selecione a pasta onde você descompactou a skill. Existe a pasta skills e dentro dela duas pastas: 'aprofundador' e 'humanizer-br'
+
+Vá primeiro na pasta 'humanizer-br'e selecione a 'SKILL.md' que está dentro dela. Faça o mesmo com a pasta 'aprofundador'.
+
+### Método 4: Script automático (Windows PowerShell)
 
 Crie um script `install.ps1` com:
 
